@@ -1,1 +1,13 @@
 Fill in the passphrases here.
+Q1. WongAvery
+Q9. 2020_sucked
+Q4. JavaScriptRocks
+Q5. ShraviBeatsReact
+Q3. HTMLRules
+Q12. iHeartWebDev
+Q6. ThisIsJSyay
+Q7. SofiaWasHere
+Q2. iHateC++
+Q8. coolcoolcool3x
+Q11. ElaineFirst
+Q10. listenToPetalcore
