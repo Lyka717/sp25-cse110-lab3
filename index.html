@@ -12,7 +12,7 @@
 <body>
     <main>
         <header>
-            <h1>Group Hangout Makes It Out of the Chat<h1>
+            <h1>Group Hangout Makes It Out of the Chat</h1>
             <h5>Date: 04-09-2025</h5>
             <h3>Meeting 2 - Arrival Planning</h3>
         
@@ -69,7 +69,7 @@
                 <h3>Availibilty Dates</h3>
                 <ul>  
                     <li><input type="radio">07/18/2025</li>
-                    <li><input type="radio"><b>07/23/2025</b></li> <span><p>Most likely but TBD</p></span>
+                    <li><input type="radio"><b>07/23/2025</b></li> <p>Most likely but TBD</p>
                     <li><input type="radio">07/27/2025</li>     
                 </ul>
             </section>
@@ -81,7 +81,7 @@
                     <li>Tyen's Car: Tyen, Josh, Elazgui</li>
                     <li>Michael's Car: Michael</li>     
                 </ul>
-                <img src="Lab2 picture.png" alt="Ride Situation" width="550"/>
+                <img src="/Lab2 picture.png" alt="Ride Situation" width="550">
             </section>
 
             <section>
@@ -100,12 +100,12 @@
                 <ul>  
                     <li>Gas: $75</li>
                     <li>Movie: $21.99/ticket</li>
-                        <a href="https://www.regmovies.com/?utm_source=google-display&utm_medium=paid&
-                        utm_campaign=seeitatregal-2025-q1&utm_content=media&gad_source=1&gclid=Cj0KCQjw2N2_BhCAARIsAK4pEkV9LAMlUm7DYSodqFGq1DL25aEpaT-9XuOvqg7cOOj9lJHnQzi1VzMaAkyCEALw_wcB"><i>Movie Theatre Website</i></a>
                     <li>Food: Varies</li>
-                        <a href="https://raisingcanes.com/home/">Menu for Raising Cane's</a>
                     <li>Next Day: Undecided</li>     
                 </ul>
+                <a href="https://www.regmovies.com/?utm_source=google-display&utm_medium=paid&
+                        utm_campaign=seeitatregal-2025-q1&utm_content=media&gad_source=1&gclid=Cj0KCQjw2N2_BhCAARIsAK4pEkV9LAMlUm7DYSodqFGq1DL25aEpaT-9XuOvqg7cOOj9lJHnQzi1VzMaAkyCEALw_wcB"><i>Movie Theatre Website</i></a>
+                <a href="https://raisingcanes.com/home/">Menu for Raising Cane's</a>
             </section>
         </div>
 
@@ -117,8 +117,8 @@
                 <li>Who else could give a ride if anyone decides to drop?</li>
                 <li>How are the tickets being ordered? Individual or altogether? In-person or Online?</li>         
             </ul>
-            <p>(Comment:) Should have this finalized before 05/16/2025</p>
-            <p>(Comment:) We still need to ask what Joss wants to do in their day in SD</p>
+            <span><p>(Comment:) Should have this finalized before 05/16/2025</p></span>
+            <span><p>(Comment:) We still need to ask what Joss wants to do in their day in SD</p></span>
         </div>
         <div class="vid+audio">
             <h2 id="vid+audio">Meeting Recordings</h2>
@@ -154,8 +154,8 @@
         <h3 id="yourSection"><span><em>Your Section (Off-Meeting)</em></span></h3>
         <form action="/action_page.php" method="get">
             <fieldset>
-                <label for="Q">More Questions:</label>
-                <input type="text" id="Q" name="Q"><br><br>
+                <label for="ques">More Questions:</label>
+                <input type="text" id="ques" name="ques"><br><br>
                 <label for="C">Last minute Comments:</label>
                 <input type="text" id="C" name="C"><br><br>
             </fieldset>
@@ -170,7 +170,7 @@
         </datalist>
         <br>
         <label for="pickup">Preferred pick up time:</label>
-        <select>
+        <select name="pickup" id="pickup">
             <option value="1">6:00 PM</option>
             <option value="2">6:20 PM</option>
             <option value="3">6:40 PM</option>
@@ -207,7 +207,7 @@
         </div>
         </section>
         <footer>
-            <h6>&copy hi hello :)</h6>
+            <h6>&copy; hi hello :)</h6>
         </footer>
     </main>
 </body>
