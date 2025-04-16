@@ -1,2 +1,1 @@
-# Lab 2 - Starter
-https://lyka717.github.io/Lab2/
+https://lyka717.github.io/sp25-cse110-lab3/
