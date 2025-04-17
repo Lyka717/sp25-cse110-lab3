@@ -1,8 +1,8 @@
 # Quick Check-In Meeting
-### *Log Date:*
+### *Log Date:* [Date]
 
 **Present:**
-- 
+- [List all member present]
 
 ## Member Logs
 **Name:** [Insert Name]\
