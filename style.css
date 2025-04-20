@@ -163,7 +163,7 @@ flex.previous {
 
 .decision a{
     display: inline;
-    background-color: color-mix(in lab, beige 20%, #E2D4BA 80%);
+    background-color: color-mix(beige 20%, #E2D4BA 80%);
     width: 13vw;
     border-radius: 5px;
     margin: 5px;
